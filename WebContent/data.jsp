@@ -14,8 +14,9 @@
 	ResultSetMetaData rsmd = null;
 	
 	try {
+		String url = "jdbc:mysql://localhost:8889/applicants";
 		Class.forName("com.mysql.jdbc.Driver").newInstance();
-		connection = DriverManager.getConnection(/* resources/data/applicant.sql*/"jdbc:mysql://localhost:8889/applicants", "vision", "vision");
+		connection = DriverManager.getConnection(url, "root", "");
 		statement = connection.createStatement();
 		String s = "Select * from applicant";
 		result = statement.executeQuery(s);
