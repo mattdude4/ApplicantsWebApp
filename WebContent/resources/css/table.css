@@ -1,0 +1,41 @@
+BODY {
+	font-family:sans-serif;
+	}
+a:link, a:visited {
+    color: blue;
+    text-decoration: none
+}
+a:hover, a:active {
+    text-decoration: underline;
+}
+#searchInput {
+  background-image: url('icon-search.png');
+  background-position: 10px 10px;
+  background-repeat: no-repeat;
+  background-color: DimGrey;
+  width: 44%;
+  font-size: 16px;
+  padding: 12px 20px 12px 40px;
+  border: 1px solid #ddd;
+  margin-bottom: 12px;
+}
+
+#searchTable {
+  border-collapse: collapse;
+  width: 100%;
+  border: 1px solid #ddd;
+  font-size: 18px;
+}
+
+#searchTable th, #searchTable td {
+  text-align: left;
+  padding: 12px;
+}
+
+#searchTable tr {
+  border-bottom: 1px solid #ddd;
+}
+
+#searchTable tr.header, #searchTable tr:hover {
+  background-color: #f1f1f1;
+}
