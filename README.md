@@ -9,7 +9,7 @@ You will need to install a web server, a MySQL database management system and a 
 
 The database `applicants.sql.zip` is provided in the `WebContent\resources` directory. Import the database into phpMyAdmin, or your MySQL database management system.
 
-You should configure the `url` string in the `WebContent\data.jsp` file to include your MySQL server host name and port number. If you are running the application locally, this is likely to remain as `localhost` but ensure that you change the port number, currently `8889` to your specified port number for the `url` string.
+You should configure the `url` string in the `WebContent\data.jsp` file to include your MySQL server host name and port number. If you are running the application locally, this is likely to remain as `localhost` but ensure that you change the port number, currently `8889`, to your specified port number for the `url` string.
 
 ## Running the Application
 
